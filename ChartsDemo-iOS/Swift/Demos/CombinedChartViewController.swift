@@ -29,7 +29,7 @@ class CombinedChartViewController: DemoBaseViewController {
         super.viewDidLoad()
         
         // Do any additional setup after loading the view.
-        self/Users/hirotoyagi/Workspaces/iOS/Charts/ChartsDemo-iOS/Swift/Demos/CombinedChartViewController.swift.title = "Combined Chart"
+        self.title = "Combined Chart"
         self.options = [.toggleLineValues,
                         .toggleBarValues,
                         .saveToGallery,
